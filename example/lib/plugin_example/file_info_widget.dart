@@ -38,7 +38,7 @@ class FileInfoWidget extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.all(10.0),
           // ignore: deprecated_member_use
-          child: RaisedButton(
+          child: TextButton(
             child: const Text('CLEAR CACHE'),
             onPressed: clearCache,
           ),
@@ -46,7 +46,7 @@ class FileInfoWidget extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.all(10.0),
           // ignore: deprecated_member_use
-          child: RaisedButton(
+          child: TextButton(
             child: const Text('REMOVE FILE'),
             onPressed: removeFile,
           ),
